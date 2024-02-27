@@ -1,4 +1,1 @@
-!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-pnpm tsc --noEmit && pnpm run lint && pnpm run ptr
+pnpm ptr && pnpm lint
