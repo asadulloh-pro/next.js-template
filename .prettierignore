@@ -1,0 +1,11 @@
+/.git
+/.svn
+/.hg
+
+# Ignore specific files
+*.log
+*.json
+*.md
+*.css
+*.yaml
+*.yml
