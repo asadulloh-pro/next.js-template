@@ -5,22 +5,42 @@
     "next/core-web-vitals",
     "plugin:import/recommended",
     "next",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "indent": ["error", 2, {
-      "SwitchCase": 1
-    }],
-    "semi": ["error", "always"],
-    "comma-dangle": ["error", "only-multiline"],
-    "object-curly-spacing": ["error", "always"],
-    "react/jsx-curly-spacing": ["error", {
-      "when": "never",
-      "children": true
-    }],
-    "quotes": ["error", "double"]
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "when": "never",
+        "children": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ]
   }
 }
