@@ -41,6 +41,7 @@
     "quotes": [
       "error",
       "double"
-    ]
+    ],
+    "react/jsx-props-no-spreading": "off"
   }
 }
